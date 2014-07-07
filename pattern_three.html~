@@ -1,0 +1,521 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+  
+    <meta charset="utf-8" />
+    
+    <!-- wichtig, erkennt Viewport mobiler Geräte --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+    <title>Mainova AG</title>
+   
+   <!-- Stylesheets und JavaScript Modernizr, der Rest folgt am Ende des Dokuments -->
+    <link rel="stylesheet" href="css/foundation.css" />
+  	 <link rel="stylesheet" href="css/icon/foundation-icons.css" />
+  	 <link rel="stylesheet" href="css/search.css" />
+  	 
+  	 <!-- Stylesheets für Off Canvas Navigation von Codrops--> 
+  	 <link rel="shortcut icon" href="../favicon.ico"> 
+	 <link rel="stylesheet" type="text/css" href="css/icons.css" />
+	 <link rel="stylesheet" type="text/css" href="css/component.css" /> 
+  
+  	 
+  	 
+  	 <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/modernizr.custom.js"></script>
+  
+  </head>
+  
+  
+  <!-- BODY --> 
+<body>
+
+
+<!-- HEADER = Eine Zeile mit mainova logo und Kontakt und Suchbutton --> 
+<div class="tertiary-nav">
+    <div class=" top-bar">
+      <div class=" small-12  columns">
+       
+        <ul class="inline-list right">
+          
+			<li><a href="" class="mail-icon"><i class="fi-mail large icon-header"> </i> </a>  </li>
+			<li class="show-for-large-up"><h4 class="subheader icon-text">Kontakt <h4></li>              
+          
+          <li><a href="#" class="search-icon "><i class="fi-magnifying-glass large icon "></i></a> </li>
+         
+          <li class="search-field">
+            <form>
+              <div class="row collapse">
+                <div class="small-12 columns">
+                  <input type="text" class="dream-search" placeholder="Suche...">
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+        
+        
+         <ul class="inline-list left">
+         
+         	<li> <a href=""> <img src="img/logo.png" alt=""> </a> </li>
+         	
+         
+         </ul>
+      </div>
+    </div>
+  </div>    
+          
+
+
+<!-- HEADER Teil II = Off Canvas Menü und Home Button --> 
+
+<div class="off-canvas-wrap" data-offcanvas>
+
+<div class="inner-wrap">
+    
+	
+       <a href="#" id="trigger" class="menu-trigger">Open/Close Menu</a>
+     
+
+
+
+
+<div class="mp-pusher" id="mp-pusher">
+    <nav id="mp-menu" class="mp-menu">
+				
+				
+				<div class="mp-level">
+					
+					<!-- Überschrift erste Ebene --> 
+						<h2>Unternehmen</h2>
+						<ul>
+						<!-- Erste Unterpunkt der obersten Ebene --> 
+							<li class="icon icon-arrow-left">
+								<a href="#">Unternehmensprofil</a>
+								<div class="mp-level">
+									<!-- h2 = Überschrift für die zweite Ebene! --> 
+									<h2>Unternehmensprofil</h2>
+									<a class="mp-back" href="#">zurück</a>
+									<!-- Unterpunkte der zweiten Ebene --> 								
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a href="#">Zahlen und Fakten </a>
+											<div class="mp-level">
+												<!-- Überschrift für die dritte Ebene --> 
+												<h2>Zahlen und Fakten</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Anteilseigener</a></li>  <!-- = Endknoten --> 
+													<li><a href="#">Beteiligungen</a></li>
+													<li><a href="#">Kennzahlen und Überblick</a></li>
+													<li><a href="#">Qualitätssicherung</a></li>
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Unternehmensführung und Gremien</a>
+											<div class="mp-level">
+												<h2>Unternehmensführung und Gremien</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Vorstand</a></li>
+													<li><a href="#">Aufsichtsrat</a></li>
+													<li><a href="#">Beirat</a></li>
+													<li><a href="#">Corporate Governance</a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Versorgungsbedingungen</a>
+											<div class="mp-level">
+												<h2>Versorgungsbedingungen</h2>
+												 <a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Technische Anschlussbedinungungen</a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										<li>
+											<a href="#">Auszeichnungen/ Zertifizierungen</a>
+											
+										</li>
+										
+										<li>
+											<a href="#">Geschichte</a>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a  href="#">Erzeugung</a>
+											<div class="mp-level">
+												<h2>Erzeugung</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Windkraft</a></li>
+													<li><a href="#">Photovoltaik</a></li>
+													<li><a href="#">Bioerdgas</a></li>
+													<li><a href="#">Kraftwerksmanagementsystem</a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a  href="#">Umweltschutz</a>
+											<div class="mp-level">
+												<h2>Umweltschutz</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">EEG-Belastungsausgleich</a></li>
+													<li><a href="#">Klimaaktiv</a></li>
+													
+													
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Beschaffung<a>
+											<div class="mp-level">
+												<h2>Beschaffung</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Ansprechpartner</a></li>
+													<li><a href="#">Einkaufs- und Vertragsbedingungen</a></li>
+												
+													
+												</ul> 
+											</div>
+										</li>
+										
+										
+									</ul>
+								</div>
+							</li>
+							
+							<!-- Zweiter Punkt der Ersten Ebene Ende --> 
+							
+							
+							<li class="icon icon-arrow-left">
+								<a href="#">Investor Relations</a>
+								<div class="mp-level">
+									<h2>Investor Relations</h2>
+									<a class="mp-back" href="#">zurück</a>
+									<ul>
+									
+										<li>
+											<a href="#">Aktionärsstruktur</a>
+										</li>
+										
+										<li>
+											<a href="#">Finanzstruktur</a>
+										</li>
+										<li>
+											<a href="#">Hauptversammlung</a>
+										</li>
+										<li>
+											<a href="#">Publikationen</a>
+										</li>
+										<li>
+											<a href="#">Kontakt</a>
+										</li>
+									
+									
+									</ul>
+								</div>
+							</li>
+							
+							<!-- Dritter Punkt der ersten Ebene! -->
+							<li class="icon icon-arrow-left">
+								<a href="#">Presse</a>
+								<div class="mp-level">
+									<!-- h2 = Überschrift für die zweite Ebene! --> 
+									<h2>Presse</h2>
+									<a class="mp-back" href="#">zurück</a>
+									<!-- Unterpunkte der zweiten Ebene --> 								
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a href="#">Pressemeldungen </a>
+											<div class="mp-level">
+												<!-- Überschrift für die dritte Ebene --> 
+												<h2>Pressemeldungen</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">2014</a></li>  <!-- = Endknoten --> 
+													<li><a href="#">2013</a></li>
+													<li><a href="#">2012</a></li>
+													<li><a href="#">2011</a></li>
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Downloads</a>
+											<div class="mp-level">
+												<h2>Downloads</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Bilder</a></li>
+													<li><a href="#">Logos</a></li>
+													<li><a href="#">Berichte& Präsentationen</a></li>
+													<li><a href="#">Videos</a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										
+										<li>
+											<a href="#">Presseverteiler</a>
+											
+										</li>
+										
+										<li>
+											<a href="#">Ansprechpartner</a>
+											
+										</li>
+										
+										<li>
+											<a href="#">Interviewanfrage</a>
+										</li>
+										
+										<li>
+											<a href="#">Rückrufwunsch</a>
+										</li>
+						</ul>
+						
+						
+						
+						
+						<!-- Vierter Unterpunkt der ersten Ebene --> 
+										<li>
+											<a href="#">Karriere</a>
+										</li>
+						
+						<!-- Fünfter Unterpunkt der ersten Ebene -->  
+							<li class="icon icon-arrow-left">
+								<a href="#">Engagement</a>
+								<div class="mp-level">
+									<!-- h2 = Überschrift für die zweite Ebene! --> 
+									<h2>Engagement</h2>
+									<a class="mp-back" href="#">zurück</a>
+									<!-- Unterpunkte der zweiten Ebene --> 								
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a href="#">Bildung </a>
+											<div class="mp-level">
+												<!-- Überschrift für die dritte Ebene --> 
+												<h2>Bildung</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Bildungsangebote</a></li>  <!-- = Endknoten --> 
+													<li><a href="#">Experimentiermaterial</a></li>
+													<li><a href="#">GrünGürtel-Windfest</a></li>
+													<li><a href="#">Lernwerkstätten</a></li>
+													<li><a href="#">Naturschutzhaus Weilbacher Kiesgruben</a></li>
+													<li><a href="#">Science Center Experiminta</a></li>
+													<li><a href="#">Solarrennen Frankfurt Rhein Main </a></li>
+													<li><a href="#">Stiftungsprofessur FH Frankfurt</a></li>
+													<li><a href="#">Umweltbildungszentrum Kühkopf</a></li>
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Gesellschaft</a>
+											<div class="mp-level">
+												<h2>Gesellschaft</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Mitarbeiterprogramm</a></li>
+												
+													
+												</ul> 
+											</div>
+										</li>
+										
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Kultur</a>
+											<div class="mp-level">
+												<h2>Kultur</h2>
+												 <a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">mainova-heimspiel</a></li>
+													<li><a href="#">Luminale</a></li>
+												</ul> 
+											</div>
+										</li>
+										
+										<li>
+											<a href="#">Mainova Medien</a>
+											
+										</li>
+										
+										
+										<li class="icon icon-arrow-left">
+											<a  href="#">Nachwuchsförderung</a>
+											<div class="mp-level">
+												<h2>Nachwuchsförderung</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Fußball-Camps für Kids</a></li>
+													<li><a href="#">Nachwuchsläufe Frankfurt Marathon </a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a  href="#">Spitzensport</a>
+											<div class="mp-level">
+												<h2>Spitzensport</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">KommerzBank Arena Frankfurt</a></li>
+													<li><a href="#">Frankfurt Cup 2014</a></li>
+													<li><a href="#">Eintracht Frankfurt</a></li>
+													<li><a href="#">Fraport Skyliners</a></li>
+												</ul> 
+											</div>
+										</li>
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">Breitensport<a>
+											<div class="mp-level">
+												<h2>Breitensport</h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Frankfurter Sportlerehrung</a></li>
+													<li><a href="#">Mainova Trikots</a></li>
+													<li><a href="#">Mainova Sport Rhein-Main</a></li>
+												
+													
+												</ul> 
+											</div>
+										</li>
+										
+										
+									</ul>
+								</div>
+							</li>
+							<!-- Fünfter Punkt der Ersten Ebene Ende --> 						
+						
+						<!-- Sechster Unterpunkt der ersten Ebene --> 
+										<li>
+											<a href="#">Kraftwerksführungen</a>
+										</li>
+										
+										
+										
+									<!-- Siebter Unterpunkt der ersten Ebene -->  
+							<li class="icon icon-arrow-left">
+								<a href="#">Marktpartner</a>
+								<div class="mp-level">
+									<!-- h2 = Überschrift für die zweite Ebene! --> 
+									<h2>Marktpartner</h2>
+									<a class="mp-back" href="#">zurück</a>
+									<!-- Unterpunkte der zweiten Ebene --> 								
+									<ul>
+									
+									<li>
+											<a href="#">Energiepartner</a>
+											
+										</li>
+									
+										<li class="icon icon-arrow-left">
+											<a href="#"> GIS Zentrum Rhein Main </a>
+											<div class="mp-level">
+												<!-- Überschrift für die dritte Ebene --> 
+												<h2>GIS Zentrum Rhein Main </h2>
+												<a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Modulübersicht</a></li>  <!-- = Endknoten --> 
+													<li><a href="#">Kontaktformular</a></li>
+													
+												</ul> 
+											</div>
+										</li>
+										
+										<li>
+											<a href="#">Installateure</a>
+											
+										</li>
+										
+										
+										<li class="icon icon-arrow-left">
+											<a href="#">NetzWerkBox</a>
+											<div class="mp-level">
+												<h2>NetzWerkBox</h2>
+												 <a class="mp-back" href="#">zurück</a>
+												<ul>
+													<li><a href="#">Über Uns</a></li>
+													<li><a href="#">Leistungen</a></li>
+													<li><a href="#">Produktangebot</a></li>
+												</ul> 
+											</div>
+										<li>
+										
+										
+									</ul>
+								</div>
+							</li>
+							<!-- Siebter Punkt der Ersten Ebene Ende --> 
+							
+
+						<!-- Achter Unterpunkt der ersten Ebene --> 
+										<li>
+											<a href="#">Veranstaltungskalender</a>
+										</li>							
+							
+						
+						
+					</div>
+				</nav>
+				<!-- /mp-menu -->
+				
+    </nav>
+    
+  
+ </div>
+
+    
+  </div>
+</div>
+			
+					
+			
+
+	
+					
+						
+
+<!-- Java Script --> 
+  
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.offcanvas.js"></script>
+   <script src="js/foundation/foundation.search.js"></script>
+  
+    <script>
+      $(document).foundation();
+    </script>
+    
+    
+    <!-- Skript von CoDrops Multi Level Off Canvas --> 
+    
+      <script src="js/vendor/classie.js"></script>
+		<script src="js/vendor/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+		</script>
+ 
+</body>
+  
+</html>
